@@ -27,7 +27,7 @@ export class SearchBar extends Component {
       <header className={css.Searchbar}>
         <form className={css.SearchForm} onSubmit={this.onSubmit}>
           <button type="submit" className={css.SearchForm_button}>
-            <ImSearch fill="blue" />
+            <ImSearch fill="#b53f3f" />
           </button>
 
           <input
